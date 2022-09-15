@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticket Counter</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=a.0">
+</head>
+<body>
+	<form>
+		<label for="fname">First Name:</label>
+		<input type="fname" id="fname" name="fname" placeholder="John" required maxlength="25"> &nbsp
+		<label for="lname">Last Name:</label>
+		<input type="lname" id="lname" name="lname" placeholder="<Mathew" required> 
+		<br>
+		<br>
+		<label for="emailid">Email Id:</label>
+		<input type="emailid" id="emailid" name="emailid" value="test@example.com" required maxlength="25" autofocus>&nbsp
+		<label for="pword">Password:</label>
+		<input type="pword" id="pword" name="pword" required minlength="6"> &nbsp
+		<input type="submit" name="submit" required>
+		<br>
+		<br>
+		<label for="category">Category:</label>
+		<select id="fruits" name="fruits" required>
+			<option value="student">Student</option>
+			<option value="employee">Employee</option>
+			<option value="freelancer" selected>Freelancer</option>
+		</select>
+		<br>
+		<br>
+		<label for="edate">Event Date:</label>
+		<input type="date" name="edate" required>
+		<br>
+		<br>
+		<input type="radio" name="tickets" value="ticket">1 ticket
+		<input type="radio" name="tickets" value="tickets" selected>2 tickets
+		<input type="radio" name="tickets" value="tickets">3 tickets
+		<br>
+		<br>
+		<input type="checkbox" name="opayment" value="opayment" required>Online Payment
+		<br>
+		<br>
+		Notes:
+		<br/>
+		<textarea rows="5" cols="50">Description</textarea>
+		<input type="submit" name="submit" required>
+
+	</form>
+</body>
+</html>
